@@ -30,6 +30,7 @@ software-navigation-assistant/
 ### 1. Clone the repository
 
 git clone https://github.com/Gayu-07/software-navigation-assistant.git
+
 cd software-navigation-assistant
 
 ### 2. Install Python dependencies
