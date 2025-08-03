@@ -15,10 +15,15 @@ A real-time object detection and depth estimation assistant using **YOLOv11x** a
 ## 📁 Folder Structure
 
 ├── main.py # Main Streamlit application
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md 
+
 ├── coco.names # COCO class labels
+
 └── models
+
      └── yolo11x.pt # Download separately
 ---
 
@@ -45,10 +50,16 @@ The app will detect objects, estimate their distance, and announce the closest o
 ---
 ### 🔧 Technologies Used
 Python
+
 Streamlit
+
 OpenCV
+
 PyTorch
+
 gTTS (Google Text-to-Speech)
+
 Pygame
+
 Ultralytics YOLOv11x
 MiDaS for depth estimation
