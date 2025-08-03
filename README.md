@@ -18,12 +18,20 @@ A real-time object detection and depth estimation assistant using **YOLOv11x** a
 
 software-navigation-assistant/
 │
+
 ├── main.py # Main Streamlit application
+
 ├── requirements.txt # Python dependencies
-├── README.md # You're reading this!
+
+├── README.md 
+
 ├── coco.names # COCO class labels
+
 └── models/
-└── yolo11x.pt # ⚠️ Download separately
+
+└── yolo11x.pt # Download separately
+
+---
 
 ## 💻 Installation
 
@@ -37,7 +45,10 @@ cd software-navigation-assistant
 
 pip install -r requirements.txt
 
-▶️ Usage
+---
+
+### ▶️ Usage
+
 streamlit run main.py
 
 Click Start Detection to begin
@@ -46,7 +57,9 @@ Click Stop Detection to halt processing
 
 The app will detect objects, estimate their distance, and announce the closest one every 5 seconds
 
-🔧 Technologies Used
+---
+
+### 🔧 Technologies Used
 Python
 
 Streamlit
