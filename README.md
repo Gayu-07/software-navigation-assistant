@@ -22,9 +22,8 @@ A real-time object detection and depth estimation assistant using **YOLOv11x** a
 
 ├── coco.names # COCO class labels
 
-└── models
+├── yolo11x.pt # Download separately
 
-     └── yolo11x.pt # Download separately
 ---
 
 ## 💻 Installation
